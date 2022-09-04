@@ -43,8 +43,8 @@ main {
 
 .card {
     width: 29vw;
-    max-width: 170px;
     aspect-ratio: 1;
+    max-width: 170px;
     border-radius: 29vh;
 }
 
@@ -57,40 +57,50 @@ main {
     background-image: url("./resources/rock.png");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .player-card-paper {
     background-image: url("./resources/paper.png");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .player-card-scissors {
     background-image: url("./resources/scissors.png");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .player-card-rock-dimmed {
     background-image: linear-gradient(rgba(0 ,0 ,0, 0.7), rgba(0 ,0 ,0, 0.7)), url("./resources/rock.png");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .player-card-paper-dimmed {
     background-image: linear-gradient(rgba(0 ,0 ,0, 0.7), rgba(0 ,0 ,0, 0.7)), url("./resources/paper.png");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .player-card-scissors-dimmed {
     background-image: linear-gradient(rgba(0 ,0 ,0, 0.7), rgba(0 ,0 ,0, 0.7)), url("./resources/scissors.png");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .computer-card {
     background-color:#2b132d;
+    width: 29vw;
+    max-width: 170px;
+    aspect-ratio: 1;
+    border-radius: 29vh;
 }
 
 .computer-card-rock {
