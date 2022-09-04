@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rock - Paper - Scissors</title>
+        <meta name="description" content="Game of rock paper scissors.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <main>
+            <header class="section">
+                <h1 class="page-title">Rock - Paper<span class="title-hyphen"> - </span><span class="title-break"><br></span>Scissors</h1>
+            </header>
+
+            <section class="section">
+                <div class="player-card-wrapper">
+                    <div id="player-rock" class="card player-card-rock"></div>
+                    <div id="player-paper" class="card player-card-paper"></div>
+                    <div id="player-scissors" class="card player-card-scissors"></div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="shoot-wrapper">
+                    <span class="pre-shoot-button">Rock, Paper, Scissors,</span>
+                    <button id="shoot-button" class="shoot-button">SHOOT!</button>
+                </div>
+            </section>
+
+            <section class="section">
+                <div id="computer-card" class="card computer-card"></div>
+            </section>
+
+            <aside id="score-slider" class="score-slider">
+
+                <section class="section">
+                    <div class="scores-wrapper">
+                        <div class="score-wrapper">
+                            <div id="player-outcome" class="player-outcome"></div>
+                            <div class="score-border">
+                                <h2 id="player-score" class="score">0</h2>
+                            </div>
+                            <span class="score-footer">Player</span>
+                        </div>
+                        <div class="score-wrapper">
+                            <div id="computer-outcome" class="computer-outcome"></div>
+                            <div class="score-border">
+                                <h2 id="computer-score" class="score">0</h2>
+                            </div>
+                            <span class="score-footer">Computer</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <div class="continue-reset-wrapper">
+                        <button id="continue-button" class="continue">Continue</button>
+                        <button id="reset-button" class="reset">Reset</button>
+                    </div>
+                </section>
+            </aside>
+        </main>
+
+        <script src="./index.js" async defer></script>
+    </body>
+</html>
